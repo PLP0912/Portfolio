@@ -1,11 +1,13 @@
 import React from 'react'
 import "./Portfolio.css"
 import MyResume from "./assets/OshinResume.pdf"
+import MyProfilePic from "./assets/profile_pic.jpg"
 import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
   return (
     <div className='container'>
+    <img className='my-profile-pic' src={MyProfilePic} />
   <div className='logo_holder'>
     <div className='logo_holder__rotate'>
       <svg className='logo_holder__right' enable-background='new 0 0 94.852 96.499' height='96.499px' id='Layer_1' space='preserve' version='1.1' viewBox='0 0 94.852 96.499' width='94.852px' x='0px' y='0px'>
