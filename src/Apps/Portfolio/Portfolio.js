@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Portfolio.css"
-import NavBar from './components/NavBar'
+import MyResume from "./assets/OshinResume.pdf"
 import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
@@ -21,10 +21,10 @@ const Portfolio = () => {
     </svg>
     <h2>FullStack Software Developer <br/><br/>( MERN - Mongo Express React NodeJS )</h2>
     <nav>
-      <Link to={"/"}>Resume</Link>
-      <Link to={"/"}>Project</Link>
-      <Link to={'https://github.com/oshinpojta'}>Github</Link>
-      <Link to={'https://www.linkedin.com/in/oshin-pojta/'}>LinkedIn</Link>
+      <Link target="_blank" to={MyResume}>Resume</Link>
+      <Link target="_blank" to={"https://the-daily-planet.netlify.app"}>News App</Link>
+      <Link target="_blank" to={'https://github.com/oshinpojta'}>Github</Link>
+      <Link target="_blank" to={'https://www.linkedin.com/in/oshin-pojta/'}>LinkedIn</Link>
     </nav>
   </div>
 </div>
