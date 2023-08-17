@@ -36,7 +36,8 @@ body nav {
   opacity: 0;
   margin-top: 60px;
   /* background-color: aqua; */
-  /* width: 800px; */
+  width: 900px;
+  left: -68%;
 }
 body nav a {
   color: white;

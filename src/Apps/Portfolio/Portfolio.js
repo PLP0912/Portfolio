@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Portfolio = () => {
   return (
     <div className='container'>
-    <img className='my-profile-pic' src={MyProfilePic} />
+    <img className='my-profile-pic' src={MyProfilePic} alt='Oshins Profile Pic'/>
   <div className='logo_holder'>
     <div className='logo_holder__rotate'>
       <svg className='logo_holder__right' enable-background='new 0 0 94.852 96.499' height='96.499px' id='Layer_1' space='preserve' version='1.1' viewBox='0 0 94.852 96.499' width='94.852px' x='0px' y='0px'>
@@ -27,6 +27,9 @@ const Portfolio = () => {
       <Link target="_blank" to={"https://the-daily-planet.netlify.app"}>News App</Link>
       <Link target="_blank" to={'https://github.com/oshinpojta'}>Github</Link>
       <Link target="_blank" to={'https://www.linkedin.com/in/oshin-pojta/'}>LinkedIn</Link>
+      <Link to={"/"}>Chat App (Coming Soon)</Link>
+      {/* <Link target="_blank" to={"/"}>Chat App (Coming Soon)</Link>
+      <Link target="_blank" to={"/"}>Chat App (Coming Soon)</Link> */}
     </nav>
   </div>
 </div>
