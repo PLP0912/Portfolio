@@ -27,6 +27,7 @@ const Portfolio = () => {
       <Link target="_blank" to={"https://the-daily-planet.netlify.app"}>News App</Link>
       <Link target="_blank" to={'https://github.com/oshinpojta'}>Github</Link>
       <Link target="_blank" to={'https://www.linkedin.com/in/oshin-pojta/'}>LinkedIn</Link>
+      <Link to={"https://movie-toaster.netlify.app"}>Movie Toaster (Building..)</Link>
       <Link to={"/"}>Chat App (Coming Soon)</Link>
       {/* <Link target="_blank" to={"/"}>Chat App (Coming Soon)</Link>
       <Link target="_blank" to={"/"}>Chat App (Coming Soon)</Link> */}
