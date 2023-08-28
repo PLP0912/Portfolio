@@ -24,9 +24,9 @@ const Portfolio = () => {
     <h2>FullStack Software Developer <br/><br/>( MERN - Mongo Express React NodeJS )</h2>
     <nav>
       <Link target="_blank" to={MyResume}>Resume</Link>
-      <Link target="_blank" to={"https://the-daily-planet.netlify.app"}>News App</Link>
       <Link target="_blank" to={'https://github.com/oshinpojta'}>Github</Link>
       <Link target="_blank" to={'https://www.linkedin.com/in/oshin-pojta/'}>LinkedIn</Link>
+      <Link target="_blank" to={"https://the-daily-planet.netlify.app"}>News App</Link>
       <Link target="_blank" to={"https://movie-toaster.netlify.app"}>Movie Toaster</Link>
       <Link to={"/"}>Chat App (Coming Soon)</Link>
       {/* <Link target="_blank" to={"/"}>Chat App (Coming Soon)</Link>
