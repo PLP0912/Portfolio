@@ -22,9 +22,6 @@ const Portfolio = () => {
       <text className='my-name' x={12} y={125} fill='white'>PLP</text>
     </svg>
     <h2>(UX/UI) Junior Product Designer<br/><br/>( FIGMA - Frame Illustort G Micro Animations )</h2>
-    <h3>About Me:
-    As a Junior Product Designer creates and improves product designs, working with a team to bring ideas to life and make sure products look good and function well.
-    </h3>
     <nav>
       <Link target="_blank" to={MyResume}>Resume</Link>
        <Link target="_blank" to={'https://medium.com/@plprasanth1999'}>Medium</Link>
