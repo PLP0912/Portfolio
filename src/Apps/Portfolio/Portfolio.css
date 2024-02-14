@@ -3,7 +3,7 @@
 body {
   font-family: "Lato", sans-serif;
   height: 100vh;
-  background: #232333;
+  /* background: #232333; */
   
   /* Old browsers */
   /* FF3.6+ */
@@ -11,7 +11,7 @@ body {
   /* Chrome10+,Safari5.1+ */
   /* Opera 12+ */
   /* IE10+ */
-  background: radial-gradient(ellipse at center, #232333 0%, #161616 100%);
+  background: linear-gradient( #0d0d9c 0%, #161616 100%);
   /* W3C */
   overflow: hidden;
 }
@@ -19,13 +19,22 @@ body span {
   opacity: 0;
 }
 body h2 {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   color: white;
   margin-bottom: 30px;
   opacity: 0.6;
   letter-spacing: 1px;
   margin-top: -30px;
+}
+body h3 {
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 30px;
+  opacity: 0.6;
+  letter-spacing: 1px;
+  margin-top: 0px;
 }
 body nav {
   text-align: center;
